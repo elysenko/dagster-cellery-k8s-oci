@@ -15,6 +15,3 @@ RUN pip install \
     dagster-gcp \
     dagster-graphql \
     dagster-webserver
-    
-COPY example_repo /example_project/example_repo
-WORKDIR /example_project
